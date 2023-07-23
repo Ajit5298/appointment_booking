@@ -1,0 +1,104 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+input[type='text'],
+input[type='date'],
+input[type='time'] {
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button[type='submit'] {
+  background-color: #28a745;
+}
+
+button[type='submit']:hover,
+button[type='button']:hover {
+  opacity: 0.8;
+}
+
+.appointments {
+  border-top: 2px solid #007bff;
+  padding-top: 20px;
+}
+
+.appointments h2 {
+  margin-bottom: 10px;
+}
+
+.appointments ul {
+  list-style: none;
+  padding: 0;
+}
+
+.appointments li {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.appointments strong {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.appointments p {
+  margin: 0;
+}
+
+.appointments button {
+  margin-left: 5px;
+  background-color: #dc3545;
+}
+
+.appointments p:not(:last-child) {
+  margin-bottom: 5px;
+}
+
+.appointments div {
+  display: flex;
+  align-items: center;
+}
+#cut
+{
+  background-color:red;
+  margin-top: 30px;
+}
+#accept
+{
+  background-color: rgb(67, 163, 67);
+}
+#reject
+{
+  background-color: #af0617;
+}
